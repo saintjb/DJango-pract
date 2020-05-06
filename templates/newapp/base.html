@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base page</title>
+</head>
+<body>
+<a href="{% url 'newapp:index' %}">Index </a> -
+<a href="{% url 'newapp:topics' %}"> Topics </a>
+{% block content%}
+{% endblock content %}
+</body>
+</html>
